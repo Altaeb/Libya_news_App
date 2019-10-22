@@ -1,3 +1,48 @@
 <resources>
-    <string name="app_name">LibyaNews</string>
+
+    <string name="app_name">Guardian News</string>
+    <string name="settings_title">Settings</string>
+    <string name="nav_home_title">Home</string>
+    <string name="search_title">Search</string>
+    <string name="menu_home_title">Home</string>
+    <string name="nav_settings_title">Settings</string>
+    <string name="nav_sections_title">Section</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="list_header_title">Top Headlines</string>
+    <string name="news_activity_no_content">No relevant news found!\nUse home icon to get the latest news feed</string>
+    <string name="news_activity_check_network_connection">Check network connection!</string>
+    <string name="nav_culture_title">Culture</string>
+    <string name="nav_education_title">Education</string>
+    <string name="nav_fashion_title">Fashion</string>
+    <string name="nav_life_style_title">Life &amp; Style</string>
+    <string name="nav_politics_title">Politics</string>
+    <string name="nav_sports_title">Sports</string>
+    <string name="nav_technology_title">Technology</string>
+    <string name="placeholder_text_headline">The Joy of Six: county cricket cult heroes</string>
+    <string name="placeholder_text_author">Nishant Patel</string>
+    <string name="placeholder_text_time">2019–10–22T11:58:42Z</string>
+    <string name="placeholder_text_section">Sport</string>
+    <string name="the_guardian_title">The Guardian</string>
+    <string name="the_guardian_website">www.theguardian.com</string>
+    <string name="settings_show_author_name_label">Author</string>
+    <string name="settings_show_thumbnail_label">Thumbnail</string>
+    <string name="settings_number_of_articles_label">Number of articles</string>
+    <string name="settings_order_by_label">Order by</string>
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_time_label">Newest</string>
+    <string name="my_photo">My photo</string>
+    <string name="news_thumbnail">News Thumbnail</string>
+
+    <string name="settings_order_by_time_value" translatable="false">newest</string>
+    <string name="settings_number_of_articles_default_value" translatable="false">10</string>
+    <string name="settings_show_author_name_key" translatable="false">webTitle</string>
+    <string name="settings_show_thumbnail_key" translatable="false">thumbnail</string>
+    <string name="settings_number_of_articles_key" translatable="false">settings_number_of_articles</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default_value" translatable="false">@string/settings_order_by_time_value</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+    <string name="settings_show_thumbnail_default_value" translatable="false">true</string>
+    <string name="settings_show_author_name_default_value" translatable="false">true</string>
+
 </resources>
