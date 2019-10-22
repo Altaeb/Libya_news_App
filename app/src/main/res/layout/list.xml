@@ -7,33 +7,20 @@
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipe_to_refresh"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        style="@style/swipeRefreshLayout">
 
         <ListView
             android:id="@+id/list"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF"
-            android:drawSelectorOnTop="true"
-            android:orientation="vertical" />
+            style="@style/list" />
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
     <ProgressBar
         android:id="@+id/progress_bar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />
+        style="@style/progressBar" />
 
     <TextView
         android:id="@+id/empty_view_text_box"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:fontFamily="sans-serif-condensed"
-        android:gravity="center"
-        android:textColor="#212121"
-        android:textSize="@dimen/sp_16"
-        tools:text="Check network connection!"
-        tools:targetApi="jelly_bean" />
+        style="@style/empty_view_text_box"
+        tools:targetApi="jelly_bean"
+        tools:text="Check network connection!" />
 </RelativeLayout>

@@ -1,34 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="@dimen/dp_176"
-    android:background="@drawable/side_nav_bar"
-    android:gravity="bottom"
-    android:orientation="vertical"
-    android:paddingLeft="@dimen/dp_16"
-    android:paddingTop="@dimen/dp_16"
-    android:paddingRight="@dimen/dp_16"
-    android:paddingBottom="@dimen/dp_16"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    style="@style/LinearLayout_nav_header">
 
     <ImageView
         android:layout_width="@dimen/dp_80"
         android:layout_height="@dimen/dp_80"
+        android:contentDescription="@string/my_photo"
         android:paddingTop="@dimen/dp_8"
-        app:srcCompat="@drawable/guardian_logo"
-        android:contentDescription="@string/my_photo" />
+        app:srcCompat="@drawable/guardian_logo" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/dp_8"
-        android:text="@string/the_guardian_title"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        style="@style/imageView_nav_header"
+        android:text="@string/the_guardian_title" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/textView_nav_header"
         android:text="@string/the_guardian_website" />
 
 </LinearLayout>

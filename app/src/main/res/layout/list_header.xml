@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:paddingLeft="@dimen/dp_8"
-    android:paddingTop="@dimen/dp_8"
-    android:paddingRight="@dimen/dp_8">
+    style="@style/LinearLayout_list_header">
 
     <TextView
         android:id="@+id/list_header"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/dp_8"
-        android:background="@drawable/list_header_background"
-        android:fontFamily="sans-serif-condensed"
-        android:padding="@dimen/dp_8"
-        android:textAllCaps="true"
-        android:textColor="#FFFFFF"
-        android:textSize="@dimen/sp_36"
-        android:textStyle="normal"
-        tools:text="Top Headlines"
-        tools:targetApi="jelly_bean" />
+        style="@style/list_header"
+        tools:targetApi="jelly_bean"
+        tools:text="Top Headlines" />
 
     <TextView
         android:id="@+id/list_header_section"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/dp_8"
-        android:background="@drawable/list_header_section_background"
-        android:fontFamily="sans-serif-condensed"
-        android:padding="@dimen/dp_8"
-        android:textAllCaps="true"
-        android:textColor="#FFFFFF"
-        android:textSize="@dimen/sp_20"
-        android:textStyle="normal"
-        tools:text="Life  Style"
-        tools:targetApi="jelly_bean" />
+        style="@style/list_header_section"
+        tools:targetApi="jelly_bean"
+        tools:text="Life  Style" />
 </LinearLayout>

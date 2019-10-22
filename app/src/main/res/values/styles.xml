@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -11,6 +11,209 @@
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="drawerLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="navigationView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="coordinatorLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="appBarLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="constraintLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="swipeRefreshLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="list">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="empty_view_text_box">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-condensed</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#212121</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="progressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="LinearLayout_list_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/dp_8</item>
+        <item name="android:paddingTop">@dimen/dp_8</item>
+        <item name="android:paddingRight">@dimen/dp_8</item>
+    </style>
+
+    <style name="list_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/dp_8</item>
+        <item name="android:background">@drawable/list_header_background</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-condensed</item>
+        <item name="android:padding">@dimen/dp_8</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/sp_36</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="list_header_section">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/dp_8</item>
+        <item name="android:background">@drawable/list_header_section_background</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-condensed</item>
+        <item name="android:padding">@dimen/dp_8</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="LinearLayout_nav_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_176</item>
+        <item name="android:background">@drawable/side_nav_bar</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/dp_16</item>
+        <item name="android:paddingTop">@dimen/dp_16</item>
+        <item name="android:paddingRight">@dimen/dp_16</item>
+        <item name="android:paddingBottom">@dimen/dp_16</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+
+    <style name="imageView_nav_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/dp_8</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+    </style>
+
+    <style name="textView_nav_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="relativeLayout_news_list">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_100</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:padding">@dimen/dp_8</item>
+    </style>
+
+    <style name="linearLayout_news_list">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="relativeLayout_news_list_item">
+        <item name="android:layout_width">@dimen/pd_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingRight">@dimen/dp_8</item>
+        <item name="android:paddingEnd">@dimen/dp_8</item>
+    </style>
+
+    <style name="news_section">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingBottom">@dimen/dp_4</item>
+        <item name="android:textColor">#2979FF</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="news_headline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/news_section</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">#212121</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="news_time">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#757575</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="news_contributor_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toRightOf">@+id/news_section</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:paddingLeft">@dimen/dp_4</item>
+        <item name="android:paddingBottom">@dimen/dp_4</item>
+        <item name="android:textColor">#757575</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingStart">@dimen/dp_4</item>
+        <item name="android:layout_toEndOf">@+id/news_section</item>
+    </style>
+
+    <style name="news_thumbnail">
+        <item name="android:layout_width">@dimen/dp_80</item>
+        <item name="android:layout_height">@dimen/dp_80</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:contentDescription">@string/news_thumbnail</item>
+        <item name="android:layout_alignParentEnd">true</item>
     </style>
 
 </resources>
